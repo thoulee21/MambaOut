@@ -1,0 +1,18 @@
+[project]
+name = "MambaOut"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "thoulee", email = "thou_lee@outlook.com"},
+]
+dependencies = [
+    "timm==0.6.11",
+    "gradio>=4.31.4",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
