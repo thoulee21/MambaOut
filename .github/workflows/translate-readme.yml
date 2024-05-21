@@ -25,3 +25,18 @@ jobs:
         uses: dephraiim/translate-readme@main
         with:
           LANG: zh-CN
+      
+      - name: Adding README - Chinese Traditional
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: zh-TW
+
+      - name: Adding README - Japanese
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: ja
+
+      - name: Adding README - Korean
+        uses: dephraiim/translate-readme@main
+        with:
+          LANG: ko
