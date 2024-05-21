@@ -1,7 +1,9 @@
 {
     "cSpell.words": [
+        "argmax",
         "femto",
         "gradio",
+        "imagenet",
         "mambaout",
         "softmax",
         "unsqueeze"
